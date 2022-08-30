@@ -1,0 +1,51 @@
+body {
+    background-color: #f5d9d5;
+    font-family: "Nunito", sans-serif;
+}
+#mainNavbar {
+    /* Changing the font-size and font-weight of #mainNavbar */
+        font-size: 1.5rem;
+        font-weight: 100;
+}
+#mainNavbar .nav-link {
+    /* Changing the color of the navbar items to pure-white */
+        color: white;
+}
+#mainNavbar .nav-link:hover {
+    /* Changing the color of the navbar items to #EA1C2C when hovering */
+        color: #EA1C2C;
+}
+#mainNavbar .navbar-brand {
+    /* Changing the color of the navbar-brand to #EA1C2C. It will inherit font-size and font-weight from #mainNavbar  */
+        color: #EA1C2C;
+}
+.slashes {
+    /* Making the slashed red in color */
+        color: #EA1C2C;
+}
+#headingGroup h1 {
+    /* Chaning the font-size and font-weight of "Museum of Candy" */
+        font-weight: 100;
+        font-size: 4rem;
+}
+@media (max-width: 1200px) {
+    /* Reducing the size of the "Museum of Candy" for screen size below than 1200p */
+        #headingGroup h1 {
+            font-size: 3rem;
+        }
+}
+/* We name the heading, icon , text set to be blurb */
+.blurb h2 {
+    color: #EA1C2C;
+    font-weight: 100;
+    font-size: 2rem;
+}
+.blurb p {
+    color: #f498b8;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+#imageTextSet2 {
+    /* For the space between donut and milk jar image */
+        margin: 100px 0;
+}

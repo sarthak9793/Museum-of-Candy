@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Museum of Candy</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/25. Museum of Candy.css">
+
+</head>
+<body >
+    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
+        <!-- Navbar-brand -->
+            <a href="#" class="navbar-brand">CANDY</a>
+        <!-- Getting the Hamburger button -->
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navLinks" aria-label="Toggle Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        <!-- Populating the navbar with items that will also go in the collapseable menu when the window size reduces -->
+            <div class="collapse navbar-collapse" id="navLinks">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="" class="nav-link">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">TICKETS</a>
+                    </li>
+                </ul>
+            </div>
+    </nav>
+    <!-- container-fluid has padding on left and right by default, so we remove it by adding class px-0 -->
+    <section class="container-fluid px-0">
+            <div class="row align-items-center">
+                <!-- We want to Museum of candy to take half of row only when viewing window is of size large and above. Below large we want it to disappear -->
+                    <div class="col-lg-6">
+                        <!-- We have grouped them together so we design them together. The element will be hidden by default and will only be visible for screen size lg and above -->
+                            <div id="headingGroup" class="text-white text-center d-none d-lg-block mt-5">
+                                <h1>MUSEUM<span class="slashes">/</span>OF<span class="slashes">/</span>CANDY</h1>
+                                <h1>MUSEUM<span class="slashes">/</span>OF<span class="slashes">/</span>CANDY</h1>
+                                <h1>MUSEUM<span class="slashes">/</span>OF<span class="slashes">/</span>CANDY</h1>
+                                <h1>MUSEUM<span class="slashes">/</span>OF<span class="slashes">/</span>CANDY</h1>
+                                <h1>MUSEUM<span class="slashes">/</span>OF<span class="slashes">/</span>CANDY</h1>
+                                <h1>MUSEUM<span class="slashes">/</span>OF<span class="slashes">/</span>CANDY</h1>
+                                <h1>MUSEUM<span class="slashes">/</span>OF<span class="slashes">/</span>CANDY</h1>
+                            </div>
+                    </div>
+                <!-- We want image to be half of row only when viewing window is of size large and above. Below large we want image to take complete row -->
+                    <div class="col-lg-6">
+                        <!-- We used the class img-fluid to make the image responsive -->
+                            <img class="img-fluid" src="../Museum of candy images/hand2.png">
+                    </div>
+            </div>
+    </section>
+    <!-- Image-Text set 2 -->
+    <section class="container-fluid px-0" id="imageTextSet2">
+            <div class="row align-items-center">
+                <div class="col-md-6 order-2 order-md-1">
+                    <img class="img-fluid" src="../Museum of candy images/milk.png">
+                </div>
+                <div class="col-md-6 text-center order-1 order-md-2 mb-5 mb-md-0">
+                    <!-- We wrapped the lines 
+                            <h2>MUSEUM OF CANDY</h2>
+                            <img src="../Museum of candy images/lolli_icon.png" alt="">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi molestiae assumenda porro! Quam dolore doloremque aliquid dicta facere minima laboriosam, reprehenderit optio. Quasi iusto odit at laudantium recusandae necessitatibus eaque.</p>
+                        around a col inside of a row so as to be able to to align them using the grid system independently and give it a width of 10 (and of 8 when screen size is lg or above) within tha sub gridsystem. You can try seeing what it looks without them also -->
+                        <div class="row justify-content-center">
+                            <div class="col-10 col-lg-8 blurb">
+                                <h2 class="subheadingGroup">MUSEUM OF CANDY</h2>
+                                <img src="../Museum of candy images/lolli_icon.png" alt="" class="d-none d-lg-inline">
+                                <p class="blurb">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi molestiae assumenda porro! Quam dolore doloremque aliquid dicta facere minima laboriosam, reprehenderit optio. Quasi iusto odit at laudantium recusandae necessitatibus eaque.</p>
+                            </div>
+                        </div>
+                </div>
+            </div>
+    </section>
+    <!-- Image-Text set 3 -->
+    <section class="container-fluid px-0" id="imageTextSet2">
+            <div class="row align-items-center">
+                <div class="col-md-6 order-1 order-md-2">
+                    <img class="img-fluid" src="../Museum of candy images/gumball.png">
+                </div>
+                <div class="col-md-6 text-center order-2 order-md-1 mb-5 mb-md-0">
+                    <div class="row justify-content-center">
+                        <div class="col-10 col-lg-8 blurb">
+                            <h2 class="subheadingGroup">MUSEUM OF CANDY</h2>
+                            <img src="../Museum of candy images/lolli_icon.png" alt="" class="d-none d-lg-inline">
+                            <p class="blurb">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi molestiae assumenda porro! Quam dolore doloremque aliquid dicta facere minima laboriosam, reprehenderit optio. Quasi iusto odit at laudantium recusandae necessitatibus eaque.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- Image-Text set 4 -->
+    <section class="container-fluid px-0" id="imageTextSet2">
+            <div class="row align-items-center">
+                <div class="col-md-6 order-2 order-md-1">
+                    <img class="img-fluid" src="../Museum of candy images/sprinkles.png">
+                </div>
+                <div class="col-md-6 text-center order-1 order-md-2 mb-5 mb-md-0">
+                    <div class="row justify-content-center">
+                        <div class="col-10 col-lg-8 blurb">
+                            <h2 class="subheadingGroup">MUSEUM OF CANDY</h2>
+                            <img src="../Museum of candy images/lolli_icon.png" alt="" class="d-none d-lg-inline">
+                            <p class="blurb">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi molestiae assumenda porro! Quam dolore doloremque aliquid dicta facere minima laboriosam, reprehenderit optio. Quasi iusto odit at laudantium recusandae necessitatibus eaque.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    
+    
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+</body>
+</html>
